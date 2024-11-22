@@ -183,9 +183,9 @@ main section {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Fixed 3 columns per row */
-    gap: 1rem; /* Larger gap between images */
-    justify-items: center; /* Center images horizontally */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+    justify-items: center;
 }
 
 .gallery-item {
@@ -195,7 +195,7 @@ main section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     width: 100%;
-    max-width: 500px; /* Ensure consistent size */
+    max-width: 500px;
 }
 
 .gallery-item:hover {
@@ -206,7 +206,7 @@ main section {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 10px; /* Rounded corners for images */
+    border-radius: 10px; 
 }
 
 
@@ -291,7 +291,7 @@ html {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     outline: none;
-    object-fit: cover; /* Ensures the video covers the space nicely */
+    object-fit: cover; 
 }
 
 
